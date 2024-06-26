@@ -36,6 +36,8 @@ ros2 launch rviz_gazebo car_lidar_gazebo.launch.py
 ros2 launch test_cartographer cartographer.launch.py
 ```
 
+[341357932-c5263c03-7538-4a35-a044-6a984779c827.webm](https://github.com/dkzpdhtm12/Cartographer_test/assets/48241432/3bd7182d-c5f5-4836-b7e8-5544c524a9fc)
+
 Try mapping by moving the object.
 
 ```bash
