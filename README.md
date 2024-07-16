@@ -59,3 +59,8 @@ ros2 run nav2_map_server map_saver_cli -f <map name>
 
 ![Img](img4.png)
 
+# Use to Two lidar for mapping
+
+![Img](img.png)
+
+use to Multiple lidar try mapping. so modify lua file and launch file
