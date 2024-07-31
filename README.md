@@ -18,21 +18,17 @@ cd ~/ros2_ws/src
 sudo apt update
 sudo apt install ros-humble-cartographer* -y
 
-git clone https://github.com/dkzpdhtm12/rviz_gazebo_test.git
+git clone https://github.com/dkzpdhtm12/rviz_gazebo_test.git # rviz_gazebo 레포지토리 참고
 git clone https://github.com/dkzpdhtm12/Cartographer_test.git
 
 sudo apt update
 
 cd ~/ros2_ws
 
-rosdep update
-rosdep install -i --from-path src --rosdistro humble -y
-
 colcon build -- symlink-install
 source ~/ros2_ws/install/local_setup.bash
 
 ros2 launch rviz_gazebo car_lidar_gazebo.launch.py
-
 ros2 launch test_cartographer cartographer.launch.py
 ```
 
